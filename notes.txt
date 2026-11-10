@@ -1,1 +1,6 @@
 Mon journal de bord Data Analyst
+
+
+resultats = analyser_ventes(donnees_test)
+for cle, valeur in resultats.items():
+    print(f"{cle} : {valeur}")

@@ -29,6 +29,4 @@ def analyser_ventes(transactions):
 
 donnees_test = [150.0, -20.0, 0.0, 220.5, 180.0, 95.0, 1200.0,1500.0, 310.0, -5.0, 200.0]
 
-resultats = analyser_ventes(donnees_test)
-for cle, valeur in resultats.items():
-    print(f"{cle} : {valeur}")
+print(analyser_ventes(donnees_test))
